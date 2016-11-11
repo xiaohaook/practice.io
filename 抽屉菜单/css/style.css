@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: green;
+}
+.con{
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    margin-top: -51px;
+    left: 50%;
+    margin-left: -202px;
+    cursor: pointer;
+}
+button{
+    width:100px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    float: left;
+}
+button:hover{
+    background-color: #f5f5f5;
+}
+
+span{
+    display: inline-block;
+    width: 96%;
+    height: 50px;
+    margin-left: 2%;
+    line-height: 50px;
+    border-bottom: 1px solid #f5f5f5;
+    text-align: center;
+}
+span:hover{
+    background-color: #f5f5f5;
+}
+
+.bgDiv{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    position:fixed;
+    display: none;
+    z-index: 99;
+    bottom: 0;
+}
+.allNav{
+    cursor: pointer;
+    background-color: #fff;
+    position: fixed;
+    z-index: 999;
+}
+.leftNav{
+    width: 70%;
+    max-width: 400px;
+    height: 100%;
+    top: 0;
+    left: -70%;
+}
+.rightNav{
+    width: 70%;
+    max-width: 400px;
+    height: 100%;
+    top: 0;
+    right: -70%;
+}
+.upNav{
+    width: 100%;
+    height: 40%;
+    top: -40%;
+}
+.downNav{
+    width: 100%;
+    height: 40%;
+    bottom: -40%;
+}
